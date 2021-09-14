@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(94, 65, 131, 0.7),rgba(94, 65, 131, 0.7)),url(images/banner.jpg);
+    background-image: linear-gradient(rgb(6,10,30,0.7),rgba(6,10,30, 0.7)),url(images/banner.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -45,7 +45,7 @@ nav image{
     content: "";
     height: 2px;
     width: 0%;
-    background: #f44336;
+    background: #5957d4d7;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -88,8 +88,8 @@ nav image{
 }
 
 .head-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #141372d7;
+    background: #141372d7;
     transition: 1s; 
 }
 
@@ -106,7 +106,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #141372d7;
         height: 100vh;
         width: 200px;
         top: 0;
